@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+
+
+ *{
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+    margin: 30px auto;
+    width: 350px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.horizontal-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    /*// เวลามี menu เยอะแล้วมีการเลื่อนหน้าจอโดยเลื่อนลง เลื่อนข้างจะถูกปิดเอาไว้ */
+    background: #333;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.horizontal-menu li {
+    display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.horizontal-menu  a {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    display: block;   /* ใช้แล้วกล่องจะใหญ่ขึ้น  */
+}
+
+.horizontal-menu .active {
+    color: #4CAF50; /* หรือสีที่คุณต้องการ */
 }

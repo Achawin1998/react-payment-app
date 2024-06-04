@@ -1,0 +1,27 @@
+label{
+    display: inline-block;
+    margin: 10px ;
+}
+
+input{
+    border: 1px solid #dedede;
+    border-radius: 20px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    margin-top: 10px;
+    /* background-color: azure;
+    color: saddlebrown; */
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px ;
+    width: 100%;
+}
