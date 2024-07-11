@@ -1,4 +1,4 @@
-<span style="font-size: 32px;">Payment Appi</span>
+<span style="font-size: 32px;">Payment-App</span>
 <hr />
 
 🍒1. สามารถ create/delete ข้อมูลต่าง ๆ ได้🍒
